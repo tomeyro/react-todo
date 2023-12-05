@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div.todo.done {
+  text-decoration: line-through;
+}
+button.edit {
+  margin-left: 5px;
+  background-color: lightcyan;
+  font-weight: bold;
+  border-radius: 5px;
+  border-color: blue;
+}
+button.save {
+  margin-left: 5px;
+  background-color: lightgreen;
+  font-weight: bold;
+  border-radius: 5px;
+  border-color: green;
+}
+button.remove {
+  margin-left: 5px;
+  background-color: lightcoral;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border-color: red;
+}
+#appTitle {
+  margin: 10px;
+}
+#todosMenu, #newTodo {
+  margin: 20px;
+}
+.hidden {
+  display: none !important;
+}
